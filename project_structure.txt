@@ -1,0 +1,14 @@
+📁 project/
+│
+├── 📁 data/                      ← All input documents (PDF/DOCX)
+│     ├── resume.pdf
+│     └── marksheet.docx
+│
+├── 📁 faiss_index/              ← Generated FAISS index
+│
+├── 📁 src/
+│     ├── ingest.py             ← Builds FAISS index from /data
+│     └── chat_local.py         ← Streamlit UI for Parker
+│
+├── requirements_free.txt       ← All required pip dependencies
+├── .env                        ← GROQ_API_KEY=your_key_here
